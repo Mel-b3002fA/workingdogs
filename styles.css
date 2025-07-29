@@ -5,6 +5,10 @@ text-decoration: none;
 
 .title{
     font-family: Imbue;
+    color: rgb(243, 2, 2);
+    font-size: 12px;
+    line-height: 80%;
+    margin-top: 62vh;
 }
 
 .body{
@@ -25,12 +29,14 @@ text-decoration: none;
 .landing-div{
     display: flex;
     justify-content: center;
-    align-items: start;
-    margin-top: 0px;
+    align-items: end;
 }
 
 .dog{
     font-family: Imbue;
-    color: red;
-    font-size: 300px;
+    color: rgb(243, 2, 2);
+    font-size: 350px;
+    line-height: 80%;
+    margin-top: 62vh;
+    /* margin-top: 0px; */
 }
