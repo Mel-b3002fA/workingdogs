@@ -19,7 +19,7 @@ text-decoration: none;
 .landing{
     margin: 0;
     height: 100vh;
-    width: 100vw;
+    width: 98.vw;
     background-image: url(./img/pexels-ahmed-hariry-mahmoud-1810298-3455391.jpg);
     background-position: fixed;
     background-size: cover;
@@ -36,16 +36,23 @@ text-decoration: none;
 .dog{
     font-family: Imbue;
     color: rgb(243, 2, 2);
-    font-size: 350px;
+    font-size: 340px;
     line-height: 80%;
-    margin-top: 61vh;
+    margin-top: 62.8vh;
     /* margin-top: 0px; */
+}
+
+.section-2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .box{
     width: 30px;
     height: 30px;
-    background-color: red;
+    background-color: white;
 }
 
 
