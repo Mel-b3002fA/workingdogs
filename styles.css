@@ -7,12 +7,13 @@ text-decoration: none;
     font-family: Imbue;
     color: rgb(243, 2, 2);
     font-size: 12px;
-    line-height: 80%;
+    line-height: 89%;
     margin-top: 62vh;
 }
 
 .body{
     margin: 0px;
+    background-color: red;
 }
 
 .landing{
@@ -37,7 +38,7 @@ text-decoration: none;
     color: rgb(243, 2, 2);
     font-size: 350px;
     line-height: 80%;
-    margin-top: 62vh;
+    margin-top: 61vh;
     /* margin-top: 0px; */
 }
 
@@ -45,4 +46,11 @@ text-decoration: none;
     width: 30px;
     height: 30px;
     background-color: red;
+}
+
+
+.triangle{
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
 }
