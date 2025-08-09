@@ -42,22 +42,41 @@ text-decoration: none;
     /* margin-top: 0px; */
 }
 
-.section-2{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    display: flex;
-    justify-content: center;
-}
-
 .box{
-    width: 30px;
-    height: 30px;
-    background-color: white;
+width: 30px;
+height: 90vw;
+background-color: black;
 }
 
-
+/* 
 .triangle{
     width: 30px;
     height: 30px;
     background-color: aquamarine;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
