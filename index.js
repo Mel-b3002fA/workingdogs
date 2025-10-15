@@ -5,16 +5,16 @@ console.log(fahreinheit);
 let daysInJanuary = 30;
 let hoursInJanuary = (daysInJanuary*24);
 let minutesInJanuary = (hoursInJanuary*60);
-console.log(minutesInJanuary)
+console.log(minutesInJanuary);
 
-let health = 100
-let energy = 38
-console.log("Health status:" health - 2)
+let health = 100;
+let energy = 38;
+console.log("Health status:"+ health - 2);
 
-console.log("Energy left:"energy - 10)
+console.log("Energy left:" + energy - 10);
 
-let totalPrice = 55$
-console.log(totalPrice * 0.1"$")
+let totalPrice = 55 + $;
+console.log(totalPrice * 0.1 + "$");
 
 
 const floatNumber = 12.78
@@ -41,3 +41,9 @@ console.log(convertedInt)
 
 const convertedString = toString(integer)
 console.log(convertedString)
+
+
+
+let firstNumber = prompt("Enter your first number:")
+let secondNumber = prompt("Enter your second number:")
+console.log(firstNumber + secondNumber)
