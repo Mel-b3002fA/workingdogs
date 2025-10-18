@@ -92,9 +92,11 @@ flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.orientation-list-item{
+ border: 2px sollid white;
+ font-family: 'Courier New', Courier, monospace;
 
-
-
+}
 
 
 
