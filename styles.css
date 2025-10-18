@@ -60,7 +60,12 @@ background-color: black;
     color: white;
     font-style: 12px;
     font-family: 'Courier New', Courier, monospace;
-    padding: 140px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+    line-height: 30px;
 }
 
 
