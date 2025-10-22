@@ -86,10 +86,10 @@ flex-direction: column;
 }
 
 
-.section3-li>.white{
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
+.white{
+    width: 90vw;
+    height: 30vh;
+    background-image: url(./img/mass.png);
 }
 
 .section3-li-para{
@@ -103,7 +103,9 @@ flex-direction: column;
 
 }
 
-
+.boxes{
+    margin-bottom: 400px;
+}
 
 
 
