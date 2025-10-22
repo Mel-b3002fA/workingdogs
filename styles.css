@@ -107,6 +107,20 @@ flex-direction: column;
     margin-bottom: 400px;
 }
 
+.action{
+    display: flex;
+    justify-content: center;
+   height: 99vh;
+   align-items: center;
+}
+
+.action>button{
+  padding: 12px 15px;
+  background-color: #ffffff00;
+  border: 1px solid white;
+  color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
 
 
 
