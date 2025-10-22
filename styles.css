@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Manrope:wght@200..800&display=swap)
+:root{
+    --light:white;
+    --dark:black;
+}
 *{
 list-style: none;
 text-decoration: none;
@@ -121,6 +126,17 @@ button{
   color: white;
    font-family: 'Courier New', Courier, monospace;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

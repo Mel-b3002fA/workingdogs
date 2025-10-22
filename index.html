@@ -12,7 +12,29 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="body">
-        <section class="landing">
+        
+<section class="experiment">
+    <div class="preloader">
+        <div class="progress-bar"></div>
+
+        <div class="preloader-images">
+            <div class="img"><img src="./img/pexels-cltsan-2833377.jpg" alt=""></div>
+            <div class="img"><img src="./img/pexels-giannis-grevenitis-1846669-3429875.jpg" alt=""></div>
+            <div class="img"><img src="./img/pexels-manu-prasad-493910553-34344763.jpg" alt=""></div>
+            <div class="img"><img src="./img/pexels-ahmed-hariry-mahmoud-1810298-3455391.jpg" alt=""></div>
+        </div>
+
+        <div class="preloader-copy">
+            <p>a visual paragraph</p>
+        </div>
+    </div>
+
+     <div class="preloader-header">
+            <a href="">Melaniia Boblieva</a>
+     </div>
+
+</section>
+        <!-- <section class="landing">
             <div class="landing-div">
                 <p class="dog">WORKING DOGS</p> 
             </div>
@@ -34,7 +56,6 @@
         <div class="section3-ul">
                 <div class="white"></div>
         </div>
-        
        </section>
 
        <section class="action">
@@ -45,42 +66,35 @@
             </div>
         </div>
        </section>
-<!-- <footer class="footer">
-    <section class="section-footer">
-    <use>
-        <svg href="./img/selection.json#Mr._Robot_Logo"></svg>
-    </use>
-    </section>
-</footer> -->
-     
+ -->
+
+
+      <section class="hero">
+        <div class="header-row">
+            <div class="divider"></div>
+            <h1>A Vision</h1>
+        </div>
+
+        <div class="header-row">
+            <div class="divider"></div>
+            <h1>A Thought</h1>
+        </div>
+
+        <div class="header-row">
+            <div class="divider"></div>
+            <h1>An Action</h1>
+        </div>
+      </section>
+
+       <script></script>
+
+
+
+
+
 <script src="./index.js"></script>
 <script src="./js/gsap.min.js"></script>
 <!--         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-       
-
-<script>
-    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-
-let smoother = ScrollSmoother.create({
-  smooth: 2,
-  effects: true,
-  normalizeScroll: true
-});
-
-ScrollTrigger.create({
-  trigger: ".shape",
-  pin: true,
-  start: "center center",
-  end: "+=300",
-  markers: true
-});
-
-document.querySelector("button").addEventListener("click", e => {
-smoother.scrollTo(".shape", true, "center center");
-  
-});
-</script>
-
 </body>
 </html>
 
