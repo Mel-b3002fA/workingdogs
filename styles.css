@@ -114,7 +114,7 @@ flex-direction: column;
    align-items: center;
 }
 
-.action>button{
+button{
   padding: 12px 15px;
   background-color: #ffffff00;
   border: 1px solid white;

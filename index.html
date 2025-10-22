@@ -38,7 +38,12 @@
        </section>
 
        <section class="action">
-        <button>Break free</button>
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+               <button>Break free</button>
+               <p>If you dare.</p>
+            </div>
+        </div>
        </section>
 <!-- <footer class="footer">
     <section class="section-footer">
@@ -54,7 +59,26 @@
        
 
 <script>
-       
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+let smoother = ScrollSmoother.create({
+  smooth: 2,
+  effects: true,
+  normalizeScroll: true
+});
+
+ScrollTrigger.create({
+  trigger: ".shape",
+  pin: true,
+  start: "center center",
+  end: "+=300",
+  markers: true
+});
+
+document.querySelector("button").addEventListener("click", e => {
+smoother.scrollTo(".shape", true, "center center");
+  
+});
 </script>
 
 </body>
