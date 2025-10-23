@@ -145,6 +145,41 @@ overflow: hidden;
 }
 
 
+.preloader-header a .char, 
+.preloader-copy p .line, 
+.header-row h1 .line{
+    position: relative;
+    display: inline-block;
+    transform: translateY(0);
+    will-change: transform;
+}
+
+
+
+@media (max-width:100px){
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+}
+
+.preloader-images{
+    top: 35%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.preloader-copy{
+    width: 80%;
+}
+
+.preloader-header{
+    transform: translateY(50svh);
+}
+
+.preloader-header a{
+    font-size: 4rem;
+}
 
 
 
