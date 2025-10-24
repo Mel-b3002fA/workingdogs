@@ -314,8 +314,10 @@ button{
 }
 
 
-
-
+.action-btn:hover{
+      transform: scale(1.2);
+      transition-duration: 300ms;
+}
 
 
 
